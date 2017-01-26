@@ -1,21 +1,21 @@
 {
   "name": "example",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ce projet est un example",
   "author": "Florian BELLOTTI <florian.bellotti@viacesi.fr>",
-  "scripts" : {
-  	"start": "node app.js" 
+  "scripts": {
+    "start": "node app.js"
   },
   "repository": {
-  	"type": "git",
-  	"url": "https://github.com/florian-bellotti/nodejs-example.git"
+    "type": "git",
+    "url": "https://github.com/florian-bellotti/nodejs-example.git"
   },
   "dependencies": {
-    "mongoose": "4.7.2",
-    "express": "~4.11.0",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
-    "ejs": "*",
+    "ejs": "^2.5.5",
+    "express": "~4.11.0",
+    "mongoose": "4.7.2",
     "morgan": "^1.7.0"
   },
   "license": "MIT"
